@@ -213,7 +213,7 @@ endfunction
   call s:hi('DiffText',                           s:blue,   s:base01, '',          '')
   call s:hi('DiffAdded',                          s:base07, s:diff_green,  s:bold,      '')
   call s:hi('DiffFile',                           s:red,    s:base00, '',          '')
-  call s:hi('DiffNewFile',                        s:diff_green,  s:base00, '',          '')
+  call s:hi('DiffNewFile',                        s:green,  s:base00, '',          '')
   call s:hi('DiffLine',                           s:blue,   s:base00, '',          '')
   call s:hi('DiffRemoved',                        s:base07, s:red,    s:bold,      '')
 
